@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+#box {
+	width: 1200px;
+	margin-left: 20%;
+}
+
+#top {
+	float: left;
+	height: 124px;
+	width: 1200px;
+}
+
+#box #top #logo {
+	float: left;
+	width: 365px;
+	height: 124px;
+}
+
+#box #top #banner {
+	float: left;
+	width: 638px;
+	height: 85px;
+	background-image: url(../images/xyddaohang_02.jpg);
+}
+
+#box #top #nav {
+	float: left;
+	height: 39px;
+	width: 638px;
+}
+
+#box #top #nav ul li {
+	float: left;
+	width: 88px;
+	height: 39px;
+	text-align: center;
+	list-style-type: none;
+}
+
+#box #top #nav ul li a {
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	height: 39px;
+	padding-top: 5px;
+	background-image: url(../imges/annu1.jpg);
+	background-repeat: no-repeat;
+}
+
+#box #top #nav ul li a:link {
+	text-decoration: none;
+}
+
+#box #top #nav ul li a:visited {
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+	background-image: url(../imges/annu1.jpg);
+}
+
+#box #top #nav ul li a:hover {
+	color: #f00;
+	font-size: 18px;
+	font-weight: bold;
+	background-image: url(../imges/annu2.jpg);
+}
+
+#box #top #nav ul li a:active {}
+
+#main {
+	float: left;
+	width: 904px;
+	margin-left: 60px;
+	margin-right: auto;
+}
+
+#box #main #siderbar {
+	float: left;
+	width: 200px;
+	border-right-style: dotted;
+	border-right-width: 1px;
+}
+
+#box #main #siderbar ul li {
+
+	background-image: url(../imges/dian.gif);
+	background-repeat: no-repeat;
+	background-position: 45px;
+	text-align: center;
+	height: 26px;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	list-style-type: none;
+}
+
+#box #main #main_1 {
+	float: left;
+	width: 685px;
+}
+
+#box #main #main_2 {
+	float: left;
+	width: 685px;
+	background-image: url(../images/businessbg.jpg);
+	background-repeat: no-repeat;
+}
+
+#footer {
+	width: 1003px;
+	float: left;
+	height: 34px;
+}
+
+.clear {
+	clear: both;
+	height: 0px;
+}
+
+a {
+	line-height: 26px;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	display: block;
+}
+
+
+a:link {}
+
+a:visited {}
+
+a:hover {
+	color: #f00;
+}
+
+a:actived {}
+
+#box #main #siderbar h4 {
+	font-size: 12px;
+	color: #FFF;
+	background-image: url(../images/webleftback.jpg);
+	text-align: center;
+	height: 29px;
+	width: 200px;
+	line-height: 29px;
+}
+
+#box #main #siderbar #kong {
+	height: 115px;
+}
+
+#main_2 img {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#box #main #main_2 p {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-indent: 2em;
+}
